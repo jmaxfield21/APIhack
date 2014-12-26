@@ -12,5 +12,7 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
 
-// SLC, currently centered on Fashion Place Mall to better center on the valley
+// SLC coordinates below, 
 // 40.776608,-111.920485
+// the current settings center the map 
+// on Fashion Place Mall to better center on the valley
