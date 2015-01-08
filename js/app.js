@@ -8,6 +8,14 @@ $(document).ready(function() {
     toggleSelected( $(this) );
   });
 
+  $('#nav').click( function() {
+    $('#options').toggle( function() {
+      $('#options').animate({'left':'-1000px'});
+    }, function() {
+      $('#options').animate({'left':'0px'});
+    });
+  });
+
 });
 
 var map;

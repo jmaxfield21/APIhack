@@ -19,6 +19,12 @@ h1 {
 	padding-top: 15px;
 }
 
+#title i {
+	float: left;
+	font-size: 1.5em;
+	display: none;
+}
+
 #map-canvas {
 	height: 75%;
 	width: 75%;
@@ -79,4 +85,44 @@ h1 {
 	position: fixed;
 	bottom: 0;
 	right: 0;
+}
+
+
+@media (max-width: 1200px) {
+	#title {
+		width: 100%;
+		padding-left: 15px;
+	}
+
+	#title h1 {
+		text-align: center;
+	}
+
+	#title i {
+		display: block;
+		padding-top: 8px;
+	}
+
+	#title i:hover {
+		color: #999999;
+	}
+
+	#options {
+		z-index:2;
+    	position:absolute;
+    	left:-1000px;
+    	height: 100%;
+    	width: 25%;
+    	margin-left: 0;
+    	background-color: rgb(255, 255, 255);
+    	border-radius: 0;
+	}
+
+	#map-canvas {
+		float: none;
+		width: 95%;
+		height: 95%;
+		top: 15px;
+		margin: 0 auto;
+	}
 }
