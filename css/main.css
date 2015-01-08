@@ -115,13 +115,15 @@ h1 {
     	left:-1000px;
     	height: 100%;
     	width: 45%;
+    	top: 110px; 
     	margin-left: 0;
     	background-color: rgb(255, 255, 255);
     	border-radius: 0;
 	}
 
 	#options li {
-		font-size: 1.6em;
+		font-size: 1.8em;
+		line-height: 2.2em;
 	}
 
 	#map-canvas {
