@@ -10,8 +10,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic' rel='stylesheet' type='text/css'>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBc-VC_aNuBYz094lOMuSpt5nof1ra42bE"
-  type="text/javascript"></script>
+  		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
   		<script src="js/app.js" type="text/javascript"></script>
 	</head>
 	<body>
@@ -22,26 +21,27 @@
 			<ul>
 				<li>
 					<span><i class="fa fa-cutlery"></i></span>
-					<a id="restaurant" href="#">Restaurants</a>
+					<a id="restaurant" href="">Restaurants</a>
 				</li>
 				<li>
 					<span><i class="fa fa-tree"></i></span>
-					<a id="resorts" href="#">Resorts</a>
+					<a id="spa" href="">Resorts</a>
 				</li>
 				<li>
 					<span><i class="fa fa-glass"></i></span>
-					<a id="bars" href="#">Bars</a>
+					<a id="bar" href="">Bars</a>
 				</li>
 				<li>
 					<span><i class="fa fa-video-camera"></i></span>
-					<a id="movie_theater" href="#">Theaters</a>
+					<a id="movie_theater" href="">Theaters</a>
 				</li>
 				<li>
 					<span><i class="fa fa-soccer-ball-o"></i></span>
-					<a id="recreation" href="#">Recreation</a>
+					<a id="recreation" href="">Recreation</a>
 				</li>
 			</ul>
 		</div>
 		<div id="map-canvas" class="clearfix"></div>
+		<img id="google" src="img/powered-by-google-on-white.png">
 	</body>
 </html>

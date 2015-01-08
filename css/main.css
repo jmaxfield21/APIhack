@@ -25,13 +25,13 @@ h1 {
 	float: right;
 	top: 50px;
 	box-shadow: 0 0 10px #888888;
-	margin-right: 70px;
+	margin-right: 60px;
 }
 
 #options {
 	width: 15%;
 	height: 75%;
-	margin-left: 70px;
+	margin-left: 60px;
 	top: 50px;
 	float: left;
 	position: relative;
@@ -68,4 +68,10 @@ h1 {
 
 .clearfix:after {
     clear: both;
+}
+
+#google {
+	position: fixed;
+	bottom: 0;
+	right: 0;
 }
