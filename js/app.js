@@ -5,6 +5,7 @@ $(document).ready(function() {
   $('a').on( 'click', function(event) {
     event.preventDefault();
     getPlacesData( $(this).attr('id') );
+    toggleSelected( $(this) );
   });
 
 });
@@ -25,6 +26,11 @@ function initialize() {
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
+}
+
+function toggleSelected( selected ) {
+  $('.selected').removeClass('selected');
+  $( selected ).closest('li').addClass('selected');
 }
 
 function getRecTypes() {

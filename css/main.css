@@ -60,6 +60,11 @@ h1 {
 	border-bottom: 1px solid;
 }
 
+.selected span, 
+.selected a {
+	color: #999999 !important;
+}
+
 .clearfix:before,
 .clearfix:after {
     content: ' ';
